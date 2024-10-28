@@ -6,5 +6,8 @@ import lombok.AllArgsConstructor;
 public class ok {
     int a;
     int b;
+    public int dif(int a, int b) {
+        return a - b;
+    }
 
 }
